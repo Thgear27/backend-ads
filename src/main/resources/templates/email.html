@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar Contraseña</title>
+</head>
+<body>
+    <h2>Recuperar Contraseña</h2>
+    <h3><span>Hola </span><span th:text="${username}"></span></h3>
+    <h4>Pica en el siguiente enlace para cambiar tu contraseña</h4>
+    <h3><span>Su token es el siguiente</span></h3><span th:text="${token}"></span>
+    <br>
+    <a th:href="@{${url}}"><button>Ir </button></a>
+</body>
+</html>
